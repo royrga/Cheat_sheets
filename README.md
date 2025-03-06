@@ -2,7 +2,7 @@
 
 Repo with useful documentation for software development and documentation.
 
-# Links to docs
+## Links to docs
 - Version control system  
     - [Git](Git.md)
 - Programming languages
@@ -11,6 +11,7 @@ Repo with useful documentation for software development and documentation.
     - [C](C.md)
     - [TypeScript](TypeScript.md)
 - Markup language (To describe structure and presentation for documents)
-    - [Markdown](Markdown.md) 
-
+    - [Markdown](Markdown.md)
+- Scripting languages
+    - [Bash](Bash.md) 
 
