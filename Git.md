@@ -1,13 +1,14 @@
 # Git Cheat Sheet
 [Back](README.md) to README file
 ## Table of Contents
-1. [Getting Started](#getting-started)
-2. [Basic Commands](#basic-commands)
-3. [Branching](#branching)
-4. [Merging](#merging)
-5. [Remote Repositories](#remote-repositories)
-6. [Stashing](#stashing)
-7. [Undoing Changes](#undoing-changes)
+- [Getting Started](#getting-started)
+- [Basic Commands](#basic-commands)
+- [Branching](#branching)
+- [Merging](#merging)
+- [Remote Repositories](#remote-repositories)
+- [Stashing](#stashing)
+- [Undoing Changes](#undoing-changes)
+-
 
 ## Getting Started
 - `git init`: Initialize a new Git repository
@@ -18,6 +19,7 @@
 - `git add <file>`: Add a file to the staging area
 - `git commit -m "message"`: Commit changes with a message
 - `git log`: Show commit logs
+- `git diff`: Show changes between commits, commit and working tree, etc.
 
 ## Branching
 - `git branch`: List branches
@@ -45,3 +47,11 @@
 - `git reset <file>`: Unstage a file
 - `git checkout -- <file>`: Discard changes in a file
 - `git revert <commit>`: Revert a commit by creating a new commit
+
+## Recommended Workflow
+
+1. Create and checkout a new branch (do this before start working on code changes):  
+` git checkout -b new_branch_name `
+
+2. Once you have code changes that you want add to a commit:  
+` git add .`  To add all files with changes
