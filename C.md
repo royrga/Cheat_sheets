@@ -3,6 +3,7 @@
 ## Table of Contents
 - [Basics](#basics)
 - [Data Types](#data-types)
+    -[Variable declaration](#variable-declaration)
 - [Control Structures](#control-structures)
     - [If-Else](#if-else)
     - [Switch](#switch)
@@ -24,7 +25,7 @@
 
 ## Basics
 ```c
-#include <stdio.h>
+#include "stdio.h"
 
 int main() {
     printf("Hello, World!\n");
@@ -32,12 +33,48 @@ int main() {
 }
 ```
 
+
+
 ## Data Types
 - `int`: Integer
 - `float`: Floating point number
 - `double`: Double precision floating point number
 - `char`: Character
 - `void`: Empty
+
+
+
+### Variable Declaration
+
+```c
+// Integers
+int number = 10;
+
+// Floating Point Numbers
+float decimal = 3.14;
+
+// Double Precision Floating Point Numbers
+double bigDecimal = 3.14159265359;
+
+// Characters
+char letter = 'A';
+
+// Strings
+char string[] = "Hello, World!";
+
+// Pointers
+int *pointer;
+```c
+// Initializing arrays
+int numbers[5] = {1, 2, 3, 4, 5};
+char letters[5] = {'A', 'B', 'C', 'D', 'E'};
+float decimals[3] = {1.1, 2.2, 3.3};
+
+// Initializing arrays without specifying size
+int moreNumbers[] = {6, 7, 8, 9, 10};
+char moreLetters[] = "Hello";
+```
+```
 
 ## Control Structures
 ### If-Else
