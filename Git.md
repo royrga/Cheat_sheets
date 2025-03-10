@@ -54,4 +54,12 @@
 ` git checkout -b new_branch_name `
 
 2. Once you have code changes that you want add to a commit:  
-` git add .`  To add all files with changes
+` git add .`  To stage all files with changes
+` git add <file> `  To stage specific file
+
+3. Commit your changes:  
+`git commit -m "message"`
+
+4. Push changes to remote(apply if you are working with a remote project):  
+`git push origin <branch>`
+
