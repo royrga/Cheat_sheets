@@ -1,6 +1,7 @@
 # Git Cheat Sheet
 [Back](README.md) to README file
 ## Table of Contents
+- [Recommended workflow](#recommended-workflow)
 - [Getting Started](#getting-started)
 - [Basic Commands](#basic-commands)
 - [Branching](#branching)
@@ -8,7 +9,30 @@
 - [Remote Repositories](#remote-repositories)
 - [Stashing](#stashing)
 - [Undoing Changes](#undoing-changes)
--
+
+## Recommended Workflow
+
+1. If you don't want to lose changes ensure that your [working directory](#working-directory) is clean before start this steps.
+
+2. **[Option 1]** Run *fetch* command to get last changes from [remote](#remote-repository) in your [local repository](#local-repository). This command keep your changes on working directory:  
+`git fetch`  
+
+    **[Option 2]** Run *pull* command to get last changes from remote in your local repository and your working directory. Note that any change in working directory could be deleted.
+    `git pull`
+
+3. Create and checkout a new branch (do this before start working on code changes):  
+` git checkout -b new_branch_name `
+
+4. Once you have code changes that you want add to a commit:  
+` git add .`  To stage all files with changes
+` git add <file> `  To stage specific file
+
+5. Commit your changes:  
+`git commit -m "message"`
+
+6. Push changes to remote(apply if you are working with a remote project):  
+`git push origin <branch>`
+
 
 ## Getting Started
 - `git init`: Initialize a new Git repository
@@ -48,30 +72,7 @@
 - `git checkout -- <file>`: Discard changes in a file
 - `git revert <commit>`: Revert a commit by creating a new commit
 
-## Recommended Workflow
 
-1. Ensure your [working directory](#working-directory) is clean before start this steps.
-
-2. **[Option 1]** Run *fetch* command to get last changes from remote in your [local repository](#local-repository). This command keep your changes on working directory:  
-`git fetch`  
-
-    **[Option 2]** Run *pull* command to get last changes from remote in your local repository and your working directory. Note that any change in working directory could be deleted.
-    `git pull`
-
-3.
-
-1. Create and checkout a new branch (do this before start working on code changes):  
-` git checkout -b new_branch_name `
-
-2. Once you have code changes that you want add to a commit:  
-` git add .`  To stage all files with changes
-` git add <file> `  To stage specific file
-
-3. Commit your changes:  
-`git commit -m "message"`
-
-4. Push changes to remote(apply if you are working with a remote project):  
-`git push origin <branch>`
 
 ## Glossary
 
@@ -82,4 +83,4 @@
 >Contain history of all commits across all branches
 
 >#### Remote repository:
->The remote version of our local repostiory
+>The remote version of the local repostiory
