@@ -1,6 +1,6 @@
 # Cheat sheets
 
-Repo with useful documentation for software development and documentation.
+Repo with useful documentation for software development.
 
 ## Links to docs
 - Version control system  
