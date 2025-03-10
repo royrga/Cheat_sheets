@@ -50,6 +50,16 @@
 
 ## Recommended Workflow
 
+1. Ensure your [working directory](#working-directory) is clean before start this steps.
+
+2. **[Option 1]** Run *fetch* command to get last changes from remote in your [local repository](#local-repository). This command keep your changes on working directory:  
+`git fetch`  
+
+    **[Option 2]** Run *pull* command to get last changes from remote in your local repository and your working directory. Note that any change in working directory could be deleted.
+    `git pull`
+
+3.
+
 1. Create and checkout a new branch (do this before start working on code changes):  
 ` git checkout -b new_branch_name `
 
@@ -63,3 +73,13 @@
 4. Push changes to remote(apply if you are working with a remote project):  
 `git push origin <branch>`
 
+## Glossary
+
+>#### Working directory: 
+>Place where developer actively edits and updates files
+
+>#### Local repository:
+>Contain history of all commits across all branches
+
+>#### Remote repository:
+>The remote version of our local repostiory
