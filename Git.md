@@ -53,7 +53,18 @@
 
 ## Merging
 - `git merge <branch-name>`: Merge a branch into the current branch
+  - **Description**: Combines the changes from one branch into another. It creates a new commit that represents the merge.
+  - **When to Use**: 
+    - When you want to preserve the complete history of changes, including the branch structure.
+    - When working in a team and you want to maintain a clear record of how branches have diverged and merged.
+    - When you want to avoid rewriting commit history.
+
 - `git rebase <branch-name>`: Rebase the current branch onto another branch
+  - **Description**: Moves or combines a sequence of commits to a new base commit. It rewrites the commit history.
+  - **When to Use**:
+    - When you want to maintain a linear project history without branches.
+    - When you want to clean up a feature branch before merging it into the main branch.
+    - When you want to incorporate changes from another branch without creating a merge commit.
 
 ## Remote Repositories
 - `git remote -v`: List remote repositories
