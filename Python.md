@@ -14,6 +14,7 @@
 - [Common Built-in Functions](#common-built-in-functions)
 - [Advanced tools](#advanced-tools)
     - [List Slicing](#list-slicing)
+    - [List Comprehension](#list-comprehension)
 
 ## Variables and Data Types
 
@@ -154,3 +155,33 @@ arr.append(x) #stack.push(x)
 arr.pop() # stack.pop()
 arr[-1] # stack.peek()
 ```
+
+### List Comprehension
+
+- **Basic Syntax**:
+    ```python
+    [expression for item in iterable]
+    ```
+- **With Condition**:
+    ```python
+    [expression for item in iterable if condition]
+    ```
+- **Nested List Comprehension**:
+    ```python
+    [[expression for item in iterable] for iterable in outer_iterable]
+    ```
+
+**Examples**:
+- **Square Numbers**:
+    ```python
+    squares = [x**2 for x in range(10)]
+    ```
+- **Filter Even Numbers**:
+    ```python
+    evens = [x for x in range(10) if x % 2 == 0]
+    ```
+- **Flatten a List of Lists**:
+    ```python
+    nested_list = [[1, 2, 3], [4, 5, 6]]
+    flat_list = [item for sublist in nested_list for item in sublist]
+    ```
