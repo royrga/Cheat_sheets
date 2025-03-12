@@ -97,6 +97,77 @@
                     # code
     ```
 
+    ### More on Classes
+
+    - **`__init__` Method**:
+        The `__init__` method is the constructor method in Python. It is called when an instance (object) of the class is created. The `self` parameter refers to the instance being created.
+        ```python
+        class Person:
+            def __init__(self, name, age):
+                self.name = name
+                self.age = age
+
+        person1 = Person("Alice", 30)
+        print(person1.name)  # Output: Alice
+        print(person1.age)   # Output: 30
+        ```
+
+    - **Basic Magic Methods**:
+        Magic methods (also known as dunder methods) are special methods that start and end with double underscores. They allow you to define the behavior of your objects for built-in operations.
+
+        - **`__str__` and `__repr__`**:
+            ```python
+            class Person:
+                def __init__(self, name, age):
+                    self.name = name
+                    self.age = age
+
+                def __str__(self):
+                    return f"Person(name={self.name}, age={self.age})"
+
+                def __repr__(self):
+                    return f"Person('{self.name}', {self.age})"
+
+            person1 = Person("Alice", 30)
+            print(person1)  # Output: Person(name=Alice, age=30)
+            ```
+
+        - **`__eq__` and `__lt__`**:
+            ```python
+            class Person:
+                def __init__(self, name, age):
+                    self.name = name
+                    self.age = age
+
+                def __eq__(self, other):
+                    return self.age == other.age
+
+                def __lt__(self, other):
+                    return self.age < other.age
+
+            person1 = Person("Alice", 30)
+            person2 = Person("Bob", 25)
+            print(person1 == person2)  # Output: False
+            print(person1 < person2)   # Output: False
+            ```
+
+        - **`__len__` and `__getitem__`**:
+            ```python
+            class MyList:
+                def __init__(self, items):
+                    self.items = items
+
+                def __len__(self):
+                    return len(self.items)
+
+                def __getitem__(self, index):
+                    return self.items[index]
+
+            my_list = MyList([1, 2, 3, 4])
+            print(len(my_list))       # Output: 4
+            print(my_list[2])         # Output: 3
+            ```
+
 ## Common Built-in Functions
 - `print()`
 - `len()`
@@ -185,3 +256,63 @@ arr[-1] # stack.peek()
     nested_list = [[1, 2, 3], [4, 5, 6]]
     flat_list = [item for sublist in nested_list for item in sublist]
     ```
+
+    ## Unpacking Operator
+
+    The unpacking operator (`*` and `**`) in Python allows you to unpack iterables and dictionaries.
+
+    ### Unpacking Iterables
+
+    - **Using `*` to unpack a list or tuple**:
+        ```python
+        numbers = [1, 2, 3]
+        print(*numbers)  # Output: 1 2 3
+        ```
+
+    - **Using `*` in function arguments**:
+        ```python
+        def add(a, b, c):
+            return a + b + c
+
+        numbers = [1, 2, 3]
+        print(add(*numbers))  # Output: 6
+        ```
+
+    - **Unpacking with multiple variables**:
+        ```python
+        a, *b, c = [1, 2, 3, 4, 5]
+        print(a)  # Output: 1
+        print(b)  # Output: [2, 3, 4]
+        print(c)  # Output: 5
+        ```
+
+    ### Unpacking Dictionaries
+
+    - **Using `**` to unpack a dictionary**:
+        ```python
+        def print_info(name, age):
+            print(f"Name: {name}, Age: {age}")
+
+        info = {"name": "Alice", "age": 30}
+        print_info(**info)  # Output: Name: Alice, Age: 30
+        ```
+
+    - **Merging dictionaries**:
+        ```python
+        dict1 = {'a': 1, 'b': 2}
+        dict2 = {'c': 3, 'd': 4}
+        merged_dict = {**dict1, **dict2}
+        print(merged_dict)  # Output: {'a': 1, 'b': 2, 'c': 3, 'd': 4}
+        ```
+
+    ### Using Unpacking in Function Calls
+
+    - **Combining positional and keyword arguments**:
+        ```python
+        def func(a, b, c, d):
+            print(a, b, c, d)
+
+        args = (1, 2)
+        kwargs = {'c': 3, 'd': 4}
+        func(*args, **kwargs)  # Output: 1 2 3 4
+        ```
