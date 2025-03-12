@@ -10,6 +10,7 @@ Repo with useful documentation for software development.
     - [Processing](Processing.md) 
     - [C](C.md)
     - [TypeScript](TypeScript.md)
+    - [Dart](Dart.md)
 - Markup language (To describe structure and presentation for documents)
     - [Markdown](Markdown.md)
 - Scripting languages
