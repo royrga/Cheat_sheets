@@ -1,5 +1,16 @@
 # Dart Cheat Sheet
 
+Dart is an open-source, general-purpose programming language developed by Google. It is optimized for building mobile, desktop, server, and web applications. Key characteristics of Dart include:
+
+- **Strongly Typed**: Dart is a statically typed language, which means that type checking is done at compile-time.
+- **Object-Oriented**: Dart supports object-oriented programming with classes and single inheritance.
+- **Asynchronous Programming**: Dart has built-in support for asynchronous programming using `Future` and `Stream`.
+- **Rich Standard Library**: Dart comes with a comprehensive standard library that provides a wide range of functionalities.
+- **Cross-Platform**: Dart is designed to be platform-agnostic, allowing developers to write code that runs on multiple platforms.
+- **Ahead-of-Time (AOT) Compilation**: Dart can be compiled to native code for high performance on mobile and desktop platforms.
+- **Just-in-Time (JIT) Compilation**: Dart also supports JIT compilation, which allows for a faster development cycle with hot reload during development.
+
+
 ## Table of Contents
 - [Basics](#basics)
     - [Variables](#variables)
