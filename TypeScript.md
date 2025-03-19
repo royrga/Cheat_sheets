@@ -94,3 +94,8 @@ interface Person {
 type PartialPerson = Partial<Person>;
 type ReadonlyPerson = Readonly<Person>;
 ```
+
+## Concepts definition
+
+### Hooks
+Hooks in TypeScript are not a built-in feature of the language itself but are commonly associated with React when using TypeScript. They are special functions that let you "hook into" React state and lifecycle features in functional components. Examples include `useState`, `useEffect`, and `useContext`. TypeScript enhances hooks by providing type safety, allowing you to define the types of state, props, and return values for better code reliability and maintainability.
