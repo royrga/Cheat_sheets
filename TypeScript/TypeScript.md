@@ -1,15 +1,16 @@
 # TypeScript Cheat Sheet
 [Back](README.md) to README file
 ## Table of Contents
-1. [Basic Types](#basic-types)
-2. [Interfaces](#interfaces)
-3. [Classes](#classes)
-4. [Functions](#functions)
-5. [Generics](#generics)
-6. [Enums](#enums)
-7. [Type Assertions](#type-assertions)
-8. [Modules](#modules)
-9. [Utility Types](#utility-types)
+- [Basic Types](#basic-types)
+- [Operators](#operators)
+- [Interfaces](#interfaces)
+- [Classes](#classes)
+- [Functions](#functions)
+- [Generics](#generics)
+- [Enums](#enums)
+- [Type Assertions](#type-assertions)
+- [Modules](#modules)
+- [Utility Types](#utility-types)
 
 ## Basic Types
 ```typescript
@@ -23,6 +24,85 @@ let nothing: void = undefined; // Void (no type, used for functions)
 let u: undefined = undefined; // Undefined
 let n: null = null; // Null
 ```
+
+## Operators
+TypeScript supports a variety of operators that can be used for performing operations on variables and values. These include arithmetic, comparison, logical, and more.
+
+### Arithmetic Operators
+```typescript
+let sum = 5 + 3; // Addition
+let difference = 5 - 3; // Subtraction
+let product = 5 * 3; // Multiplication
+let quotient = 5 / 3; // Division
+let remainder = 5 % 3; // Modulus
+let increment = ++sum; // Increment
+let decrement = --difference; // Decrement
+```
+
+### Comparison Operators
+```typescript
+let isEqual = 5 == "5"; // Equality (loose)
+let isStrictEqual = 5 === 5; // Strict equality
+let isNotEqual = 5 != "5"; // Inequality (loose)
+let isStrictNotEqual = 5 !== 5; // Strict inequality
+let isGreater = 5 > 3; // Greater than
+let isLess = 5 < 3; // Less than
+let isGreaterOrEqual = 5 >= 3; // Greater than or equal to
+let isLessOrEqual = 5 <= 3; // Less than or equal to
+```
+
+### Logical Operators
+```typescript
+let and = true && false; // Logical AND
+let or = true || false; // Logical OR
+let not = !true; // Logical NOT
+```
+
+### Bitwise Operators
+```typescript
+let andBitwise = 5 & 3; // AND
+let orBitwise = 5 | 3; // OR
+let xorBitwise = 5 ^ 3; // XOR
+let notBitwise = ~5; // NOT
+let leftShift = 5 << 1; // Left shift
+let rightShift = 5 >> 1; // Right shift
+let unsignedRightShift = 5 >>> 1; // Unsigned right shift
+```
+
+### Assignment Operators
+```typescript
+let x = 10;
+x += 5; // Add and assign
+x -= 5; // Subtract and assign
+x *= 5; // Multiply and assign
+x /= 5; // Divide and assign
+x %= 5; // Modulus and assign
+```
+
+### Other Operators
+- **Ternary Operator**: A shorthand for `if-else` statements.
+    ```typescript
+    let result = 5 > 3 ? "greater" : "lesser";
+    ```
+- **Optional Chaining (`?.`)**: Safely access deeply nested properties.
+    ```typescript
+    let value = obj?.property?.subProperty;
+    ```
+- **Nullish Coalescing (`??`)**: Provide a default value if the left operand is `null` or `undefined`.
+    ```typescript
+    let value = someVariable ?? "default";
+    ```
+- **Spread Operator (`...`)**: Expand arrays or objects.
+    ```typescript
+    let arr = [1, 2, 3];
+    let newArr = [...arr, 4, 5];
+    ```
+- **Rest Operator (`...`)**: Collect arguments into an array.
+    ```typescript
+    function sum(...numbers: number[]) {
+            return numbers.reduce((acc, curr) => acc + curr, 0);
+    }
+    ```
 
 ## Interfaces
 ### Interfaces
