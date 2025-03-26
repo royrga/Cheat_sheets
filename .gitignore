@@ -1,0 +1,28 @@
+# Ignore node_modules folder
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore build output
+dist/
+build/
+
+# Ignore environment files
+.env
+.env.local
+
+# Ignore backup files
+*.bak
+*.old
+
+# Ignore Markdown editor-specific files
+*.md~ 
