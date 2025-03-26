@@ -17,5 +17,5 @@ Repo with useful documentation for software development.
     - [Bash](Bash.md)
 - Development frameworks
     - [React Native](/React%20Native/ReactNative.md)
-        -[Expo](/React%20Native/Expo/Expo.md)
+        - [Expo](/React%20Native/Expo/Expo.md)
 
