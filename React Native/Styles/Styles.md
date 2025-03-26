@@ -1,5 +1,21 @@
 # React Native Styles
 
+## Table of Contents
+- [Basic Syntax](#basic-syntax)
+- [Common Properties](#common-properties)
+    - [Layout](#layout)
+    - [Dimensions](#dimensions)
+    - [Spacing](#spacing)
+    - [Positioning](#positioning)
+- [Text Styling](#text-styling)
+- [Background and Borders](#background-and-borders)
+- [Shadows (iOS/Android)](#shadows-iosandroid)
+- [Example Usage](#example-usage)
+- [Tips](#tips)
+
+Further Details:  
+- [Flex](Flex.md)
+
 ## Basic Syntax
 ```javascript
 import { StyleSheet } from 'react-native';

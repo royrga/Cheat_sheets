@@ -9,7 +9,7 @@ Hooks simplify state management and lifecycle methods, making functional compone
 6. [Useful Commands](#useful-commands)
 
 Further references:  
-- [Styles](Styles.md) 
+- [Styles](Styles/Styles.md) 
 - [Hooks](Hooks.md)
 
 ## Introduction
