@@ -5,12 +5,12 @@ Hooks simplify state management and lifecycle methods, making functional compone
 2. [Key Features](#key-features)
 3. [Best Practices](#best-practices)
 4. [Key Concepts](#key-concepts)
-5. [Hooks](#hooks)
-6. [Common components](#common-components)
-7. [Useful Commands](#useful-commands)
+5. [Common components](#common-components)
+6. [Useful Commands](#useful-commands)
 
 Further references:  
 - [Styles](Styles.md) 
+- [Hooks](Hooks.md)
 
 ## Introduction
 React Native is an open-source framework developed by Facebook for building cross-platform mobile applications using JavaScript and React. It allows developers to create apps for iOS and Android with a single codebase, leveraging native components for better performance and a native-like user experience.
