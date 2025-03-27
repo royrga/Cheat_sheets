@@ -138,3 +138,24 @@ Expo Router supports stack navigation, allowing you to manage a stack of screens
   Automatically handles deep linking, allowing users to navigate directly to specific screens via URLs.
 
 Stack navigation in Expo Router provides a powerful and flexible way to manage screen transitions in your React Native app, while maintaining a clean and type-safe codebase.
+
+## EAS
+
+EAS is a cloud-based service that helps you build, publish, and update React Native apps. EAS is part of the Expo platform.
+
+### Useful commands:
+
+Installation:
+```bash
+sudo npm i -g eas-cli
+```
+
+You need to initialize the project. In your route folder type, then follow the instructions...
+```bash 
+npx eas init
+```
+
+Then, publish your app with:
+```bash
+npx eas update
+```
