@@ -6,10 +6,10 @@ Repo with useful documentation for software development.
 - Version control system  
     - [Git](Git.md)
 - Programming languages
-    - [Python](Python.md) 
-    - [Processing](Processing.md) 
-    - [C](C.md)
-    - [TypeScript](TypeScript/TypeScript.md)
+    - [Python](/Programing%20Languages/Python.md) 
+    - [Processing](Programing%20Languages/Processing.md) 
+    - [C](Programing%20Languages/C.md)
+    - [TypeScript](Programing%20Languages/TypeScript/TypeScript.md)
     - [Dart](Dart.md)
 - Markup language (To describe structure and presentation for documents)
     - [Markdown](Markdown.md)
