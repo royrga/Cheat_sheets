@@ -16,8 +16,8 @@ Repo with useful documentation for software development.
 ### Scripting languages
  - [Bash](Bash.md)
 ### Development frameworks
-- [React Native](/React%20Native/ReactNative.md)
-    - [Quick Reference](/React%20Native/QuickReference.md)
- - [Expo Documentation](/React%20Native/Expo/Expo.md)
-    - [CheatSheet](/React%20Native/Expo/ExpoCS.md)
-    - [EAS](/React%20Native/Expo/EAS.md)
+- [React Native ](/React%20Native/ReactNative.md)
+    - [React Native CheatSheet](/React%20Native/ReactNativeCS.md)
+ - [Expo ](/React%20Native/Expo/Expo.md)
+    - [Expo CheatSheet](/React%20Native/Expo/ExpoCS.md)
+    - [EAS CheatSheet](/React%20Native/Expo/EAS.md)

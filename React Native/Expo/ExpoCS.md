@@ -1,4 +1,4 @@
-# NPX Expo Commands Cheat Sheet
+# Expo  Cheat Sheet
 
 ## Create Expo App
 - **Install `create-expo-app` globally**:  
