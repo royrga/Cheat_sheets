@@ -1,6 +1,5 @@
 # React Native
 
-Hooks simplify state management and lifecycle methods, making functional components more powerful and easier to maintain.
 - [Introduction](#introduction)
 - [Key Features](#key-features)
 - [Best Practices](#best-practices)
@@ -8,13 +7,16 @@ Hooks simplify state management and lifecycle methods, making functional compone
 - [Common components](#common-components)
 - [Useful Commands](#useful-commands)
 
+### [`CheatSheet`](/React%20Native/ReactNativeCS.md)
+
 More detail:  
 - [Styles](Styles/Styles.md) 
 - [Hooks](Hooks.md)
-- [Quick Reference](/React%20Native/QuickReference.md)
 
 Tools:
 - [ESLint](Tools/ESLint.md)
+
+
 
 ## Introduction
 React Native is an open-source framework developed by Facebook for building cross-platform mobile applications using JavaScript and React. It allows developers to create apps for iOS and Android with a single codebase, leveraging native components for better performance and a native-like user experience.

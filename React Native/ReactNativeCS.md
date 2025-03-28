@@ -1,6 +1,17 @@
+# React Native Cheat Sheet
+
+## Table of contents
+
+- [Component Template (TypeScript)](#component-template-typescript)
+- [map() ](#map-method-typescript)
+    - [Syntax](#syntax)
+    - [Example](#example)
+    - [Example with Objects](#example-with-objects)
+    - [Notes](#notes)
 
 
-# Component Template (TypeScript)
+
+## Component Template (TypeScript)
 
 Below is a template for creating a React Native component using TypeScript.
 
@@ -35,10 +46,10 @@ const styles = StyleSheet.create({
 });
 
 export default MyComponent;
-```
+```s
 
 
-#  `map()` Method (TypeScript)
+#  map() Method (TypeScript)
 
 The `map()` method creates a new array populated with the results of calling a provided function on every element in the calling array.
 
