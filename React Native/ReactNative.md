@@ -7,7 +7,7 @@
 - [Common components](#common-components)
 - [Useful Commands](#useful-commands)
 
-### [`CheatSheet`](/React%20Native/ReactNativeCS.md)
+- ### [`CheatSheet`](/React%20Native/ReactNativeCS.md)
 
 More detail:  
 - [Styles](Styles/Styles.md) 
