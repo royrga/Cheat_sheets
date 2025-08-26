@@ -1,3 +1,8 @@
+---
+tags:
+  - ProgrammingLanguage
+---
+
 # Dart Cheat Sheet
 
 Dart is an open-source, general-purpose programming language developed by Google. It is optimized for building mobile, desktop, server, and web applications. Key characteristics of Dart include:

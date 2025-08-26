@@ -1,6 +1,10 @@
+---
+tags:
+  - ProgrammingLanguage
+---
+
 # Python Cheat Sheet
 
-[Back](README.md) to README file
 
 ## Table of Contents
 - [Variables and Data Types](#variables-and-data-types)

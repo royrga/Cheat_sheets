@@ -1,3 +1,9 @@
+---
+tags:
+  - JavaScript
+  - TypeSrcript
+---
+
 # ESLint
 
 ESLint is a static code analysis tool for identifying and fixing problems in JavaScript code. It helps enforce consistent coding styles, catch potential bugs, and improve code quality. In React Native projects, ESLint is commonly used alongside plugins and configurations tailored for React, React Native, and TypeScript to ensure best practices and maintainable code.

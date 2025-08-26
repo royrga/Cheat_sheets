@@ -1,3 +1,8 @@
+---
+tags:
+  - ReactNative
+---
+
 ## Hooks
 
 React Native supports React Hooks, which allow you to use state and other React features in functional components. Here are some commonly used hooks:

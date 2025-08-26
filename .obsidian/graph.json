@@ -1,0 +1,58 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"Programing Languages\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "tag:#DevelopmentTools  ",
+      "color": {
+        "a": 1,
+        "rgb": 16776960
+      }
+    },
+    {
+      "query": "path:\"Development Tools/Framework\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 655104
+      }
+    },
+    {
+      "query": "tag:#Tools  ",
+      "color": {
+        "a": 1,
+        "rgb": 3694847
+      }
+    },
+    {
+      "query": "tag:#CLI  ",
+      "color": {
+        "a": 1,
+        "rgb": 65535
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.875,
+  "repelStrength": 14.4742838541667,
+  "linkStrength": 0.834065755208333,
+  "linkDistance": 155,
+  "scale": 0.7331155505942258,
+  "close": false
+}

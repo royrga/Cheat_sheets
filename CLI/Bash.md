@@ -1,3 +1,8 @@
+---
+tags:
+  - CLI
+---
+
 # Bash Cheat Sheet
 
 ## Table of Contents

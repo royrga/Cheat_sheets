@@ -1,3 +1,13 @@
+---
+tags:
+  - android
+  - crossplatform
+  - Ios
+  - JavaScript
+  - mobil
+  - TypeSrcript
+  - Framework
+---
 # React Native
 
 - [Introduction](#introduction)
@@ -7,17 +17,17 @@
 - [Common components](#common-components)
 - [Useful Commands](#useful-commands)
 
-- ### [`CheatSheet`](/React%20Native/ReactNativeCS.md)
+- ### [`CheatSheet`](RN%20CheatSheet.md)
+
+Build framework:
+- [[Expo]]
 
 More detail:  
-- [Styles](Styles/Styles.md) 
+- [Styles](Styles.md) 
 - [Hooks](Hooks.md)
 
 Tools:
-- [ESLint](Tools/ESLint.md)
-
-
-
+- [ESLint](ESLint.md)
 ## Introduction
 React Native is an open-source framework developed by Facebook for building cross-platform mobile applications using JavaScript and React. It allows developers to create apps for iOS and Android with a single codebase, leveraging native components for better performance and a native-like user experience.
 

@@ -1,0 +1,250 @@
+{
+  "main": {
+    "id": "4eb4688d315d13e1",
+    "type": "split",
+    "children": [
+      {
+        "id": "1922b0eb68826321",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6ec9c567a77b5561",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "35f47d21d4d13eda",
+    "type": "split",
+    "children": [
+      {
+        "id": "448ee177e2d02040",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "69f2160c8bee1839",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0474e1e7db7b2ad3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#CLI_Interpreter",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "589f1ae37c34c9d4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 226.5
+  },
+  "right": {
+    "id": "c37daae130d2a8e4",
+    "type": "split",
+    "children": [
+      {
+        "id": "cbb3d8b8e9f12ee4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f456b3ab59f6ccce",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "1c96550c0187df3d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for README"
+            }
+          },
+          {
+            "id": "7fc4750fee870c45",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from README"
+            }
+          },
+          {
+            "id": "28bbe3fd552b7829",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d2c841d64520cf35",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of README"
+            }
+          },
+          {
+            "id": "3b4f26db426e0876",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "d19ce91dde95f6a3",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 659.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "6ec9c567a77b5561",
+  "lastOpenFiles": [
+    "Development Tools/Dev Tools.md",
+    "Development Tools/Framework/Expo/Expo.md",
+    "CLI/Bash.md",
+    "CLI/CLI.md",
+    "Development Tools/Framework/Framework.md",
+    "Development Tools/Git.md",
+    "Tools/Tools.md",
+    "Tools/Markdown.md",
+    "Tools/Vim.md",
+    "README.md",
+    "Development Tools/Framework/React Native/RN CheatSheet.md",
+    "React Native.md",
+    "Development Tools/Framework/React Native/ReactNative.md",
+    "Development Tools/Framework/Expo/ExpoCS.md",
+    "Development Tools/Framework/Expo/EAS.md",
+    "CLI",
+    "Tools",
+    "Programing Languages/Programming Langues.md",
+    "Development Tools/Framework/React Native/Tools/ESLint.md",
+    "Development Tools",
+    "Development Tools/Framework/React Native/Hooks.md",
+    "Programing Languages/C.md",
+    "Programing Languages/Processing.md",
+    "Development Tools/Framework/React Native/Styles/Styles.md",
+    "Development Tools/Framework/React Native/Styles/Flex.md",
+    "Programing Languages/TypeScript/TypeScript.md",
+    "Programing Languages/Dart.md",
+    "Programing Languages/Python.md",
+    "Development Tools/Framework",
+    "Programing Languages/Programing Lagnguaj.md",
+    "Untitled.canvas"
+  ]
+}

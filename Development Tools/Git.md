@@ -1,5 +1,9 @@
+---
+tags:
+  - DevelopmentTools
+---
+
 # Git Cheat Sheet
-[Back](README.md) to README file
 ## Table of Contents
 - [Recommended workflow](#recommended-workflow)
 - [Getting Started](#getting-started)

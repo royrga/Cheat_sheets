@@ -1,23 +1,10 @@
 # Cheat sheets
 
-Repo with useful documentation for software development.
+Repo with useful references and cheatsheets for: 
+* [[Programming Langues]]
+* [[Dev Tools]]
+* General [[Tools]]
+* Command line interpreters [[CLI]]
 
-## Links to docs
-### Version control system  
- - [Git](Git.md)
-### Programming languages
- - [Python](/Programing%20Languages/Python.md) 
- - [Processing](Programing%20Languages/Processing.md) 
- - [C](Programing%20Languages/C.md)
- - [TypeScript](Programing%20Languages/TypeScript/TypeScript.md)
- - [Dart](Dart.md)
-### Markup language
- - [Markdown](Markdown.md)
-### Scripting languages
- - [Bash](Bash.md)
-### Development frameworks
-- [React Native ](/React%20Native/ReactNative.md)
-    - [React Native CheatSheet](/React%20Native/ReactNativeCS.md)
- - [Expo ](/React%20Native/Expo/Expo.md)
-    - [Expo CheatSheet](/React%20Native/Expo/ExpoCS.md)
-    - [EAS CheatSheet](/React%20Native/Expo/EAS.md)
+
+> This documentation is build using obsidian as knowledge management application

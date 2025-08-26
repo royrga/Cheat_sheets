@@ -1,3 +1,8 @@
+---
+tags:
+  - Framework
+---
+
 # Expo 
 
 Expo is an open-source framework and platform for building React Native applications. It provides a set of tools and services to streamline the development process, including:

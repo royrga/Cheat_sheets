@@ -1,5 +1,9 @@
+---
+tags:
+  - ProgrammingLanguage
+---
+
 # C Programming Language Cheat Sheet
-[Back](README.md) to README file
 ## Table of Contents
 - [Basics](#basics)
 - [Data Types](#data-types)

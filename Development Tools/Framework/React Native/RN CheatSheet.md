@@ -1,3 +1,8 @@
+---
+tags:
+  - ReactNative
+---
+
 # React Native Cheat Sheet
 
 ## Table of contents

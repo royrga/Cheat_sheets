@@ -2,7 +2,7 @@
 
 React Native uses the `flexbox` layout system to create responsive and adaptive UI designs. Below are the key flex parameters and their usage:
 
-![Alt Text](images/flex_terms.png)
+![Alt Text](flex_terms.png)
 
 ## 1. `flex`
 The `flex` property determines how a component grows or shrinks to fill available space.

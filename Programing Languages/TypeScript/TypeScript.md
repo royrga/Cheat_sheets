@@ -1,5 +1,9 @@
+---
+tags:
+  - ProgrammingLanguage
+---
+
 # TypeScript Cheat Sheet
-[Back](README.md) to README file
 ## Table of Contents
 - [Basic Types](#basic-types)
 - [Operators](#operators)

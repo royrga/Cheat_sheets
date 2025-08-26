@@ -1,5 +1,10 @@
-# Markdown Cheat Sheet
-[Back](README.md) to README file
+---
+tags:
+  - MarkupLanguage
+  - Tools
+---
+Markdown is a lightweight markup language that uses plain text formatting to add structure and formatting to text documents.
+## Markdown Cheat Sheet
 ## Table of Contents
 1. [Headings](#headings)
 2. [Paragraphs](#paragraphs)
