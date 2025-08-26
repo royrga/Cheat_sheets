@@ -11,7 +11,7 @@ tags:
 - [Branching](#branching)
 - [Merging](#merging)
 - [Remote Repositories](#remote%20repositories)
-- [Stashing](#stashing)
+- [Stashing](#stashing) 
 - [Undoing Changes](#undoing%20changes)
 
 ## Recommended Workflow
@@ -79,8 +79,12 @@ or **Option 2** Run *pull* command to get last changes from remote in your local
 
 ## Stashing
 - `git stash`: Stash changes in a dirty working directory
+- `git stash push -m "message"`: Allows you to add a descriptive message to your stash for easier identification later.
 - `git stash list`: List stashed changes
-- `git stash apply`: Apply stashed changes
+-  `git stash apply [stash@{n}]`: Applies the changes from a specified stash to your current working directory, leaving the stash in the stash list. If no `stash@{n}` is provided, it applies the most recent stash (`stash@{0}`).
+- `git stash pop [stash@{n}]`: Applies the changes from a specified stash to your current working directory and then removes that stash from the stash list. If no `stash@{n}` is provided, it applies and removes the most recent stash.
+- `git stash drop [stash@{n}]`: Deletes a specific stash from the stash list.
+- `git stash clear`: Removes all stashes from the stash list.
 
 ## Undoing Changes
 - `git reset <file>`: Unstage a file

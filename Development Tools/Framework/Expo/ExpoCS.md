@@ -1,3 +1,8 @@
+---
+tags:
+  - Framework
+  - Expo
+---
 # [[Expo]]  Cheat Sheet
 Further details for Explo CLI commands [Expo CLI](https://docs.expo.dev/more/expo-cli/)
 

@@ -1,3 +1,8 @@
+---
+tags:
+  - Framework
+  - ReactNative
+---
 # Flex
 
 React Native uses the `flexbox` layout system to create responsive and adaptive UI designs. Below are the key flex parameters and their usage:

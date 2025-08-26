@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming Languages/C.md",
+                "file": "Development Tools/Git.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "C"
+              "title": "Git"
             }
           },
           {
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "⭐️ Favorites refs.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,35 +52,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "5506097dc41fe26a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming Languages/Dart.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Dart"
+              "title": "⭐️ Favorites refs"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -150,9 +126,11 @@
           {
             "id": "f456b3ab59f6ccce",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "graph",
               "state": {},
+              "pinned": true,
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
@@ -163,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming Languages/Dart.md",
+                "file": "⭐️ Favorites refs.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +151,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Dart"
+              "title": "Backlinks for ⭐️ Favorites refs"
             }
           },
           {
@@ -182,12 +160,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming Languages/Dart.md",
+                "file": "⭐️ Favorites refs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Dart"
+              "title": "Outgoing links from ⭐️ Favorites refs"
             }
           },
           {
@@ -243,12 +221,11 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 617.5
+    "width": 725.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -262,21 +239,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5506097dc41fe26a",
+  "active": "02f4b48c3396e91a",
   "lastOpenFiles": [
+    "README.md",
+    "⭐️ Favorites refs.md~",
+    "⭐️ Favorites refs.md",
+    "Development Tools/Framework/React Native/ReactNative.md",
+    "Development Tools/Git.md",
+    "Programming Languages/C.md",
+    "Programming Languages/Python.md",
+    "Tools/Vim.md",
+    "Tools/Tools.md",
+    "Tools/Markdown.md",
+    "CLI/Bash.md",
+    "🏷️ TagManagement.base",
+    "Untitled.canvas",
+    "Programming Languages/Processing/Processing CLI.md",
+    "Programming Languages/Processing/Processing.md",
+    "Programming Languages/Processing",
+    "Programming Languages/Dart.md",
     "Development Tools/Dev Tools.md",
     "TODO.md",
     "Programming Languages/Programming Languages.md",
-    "Tools/Vim.md",
-    "Tools/Markdown.md",
-    "Tools/Tools.md",
-    "Programming Languages/Python.md",
-    "Programming Languages/C.md",
-    "Programming Languages/Processing.md",
     "Programming Languages/TypeScript/TypeScript.md",
-    "Development Tools/Git.md",
-    "Development Tools/Framework/React Native/ReactNative.md",
-    "README.md",
     "Development Tools/Framework/Framework.md",
     "Development Tools/Framework/React Native/Styles/Styles.md",
     "Development Tools/Framework/React Native/Styles/Flex.md",
@@ -285,15 +270,9 @@
     "Development Tools/Framework/Expo/ExpoCS.md",
     "Development Tools/Framework/Expo/Expo.md",
     "CLI/CLI.md",
-    "CLI/Bash.md",
-    "Programing Languages/Programing Languages.md",
-    "Development Tools/Framework/React Native/RN CheatSheet.md",
-    "React Native.md",
     "CLI",
     "Tools",
     "Development Tools",
-    "Development Tools/Framework/React Native/Hooks.md",
-    "Development Tools/Framework",
-    "Untitled.canvas"
+    "Development Tools/Framework"
   ]
 }

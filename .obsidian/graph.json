@@ -22,7 +22,7 @@
       }
     },
     {
-      "query": "path:\"Development Tools/Framework\"  ",
+      "query": "tag:#ReactNative  ",
       "color": {
         "a": 1,
         "rgb": 655104
@@ -41,6 +41,13 @@
         "a": 1,
         "rgb": 65535
       }
+    },
+    {
+      "query": "tag:#Expo  ",
+      "color": {
+        "a": 1,
+        "rgb": 16777215
+      }
     }
   ],
   "collapse-display": false,
@@ -53,6 +60,6 @@
   "repelStrength": 13.408203125,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.5519612002662355,
+  "scale": 0.903967705695155,
   "close": true
 }

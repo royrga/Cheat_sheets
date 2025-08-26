@@ -1,0 +1,10 @@
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - file.ext
+      - tags
+    sort:
+      - property: file.path
+        direction: ASC

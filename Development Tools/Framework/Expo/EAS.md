@@ -1,3 +1,8 @@
+---
+tags:
+  - Framework
+  - Expo
+---
 ## EAS
 
 EAS is a cloud-based service that helps you build, publish, and update React Native apps. EAS is part of the [[Expo]] platform.

@@ -18,6 +18,8 @@ tags:
 9. [Events](#events)
 10. [Tips and Tricks](#tips%20and%20tricks)
 
+> To build and run without using the IDE, processing provides a tool for command line interface:
+> [Processing CLI](Processing%20CLI.md)  
 ## Introduction
 
 Processing is a flexible software sketchbook and a language for learning how to code within the context of the visual arts.

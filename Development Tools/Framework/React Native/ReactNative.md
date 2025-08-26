@@ -7,6 +7,7 @@ tags:
   - mobil
   - TypeSrcript
   - Framework
+  - ReactNative
 ---
 # React Native
 
@@ -29,7 +30,7 @@ More detail:
 Tools:
 - [ESLint](ESLint.md)
 ## Introduction
-React Native is an open-source framework developed by Facebook for building cross-platform mobile applications using JavaScript and React. It allows developers to create apps for iOS and Android with a single codebase, leveraging native components for better performance and a native-like user experience.
+React Native is an open-source framework developed by Facebook for building cross-platform mobile applications using JavaScript/[TypeScript](TypeScript.md) and React. It allows developers to create apps for iOS and Android with a single codebase, leveraging native components for better performance and a native-like user experience.
 
 ## Key Features
 - **Cross-platform development**: Write once, run on both iOS and Android.

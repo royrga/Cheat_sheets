@@ -81,6 +81,8 @@ Commands can be prefixed with a number (e.g., `4dw` deletes 4 words).
 | `:%s/old/new/g`  | **S**ubstitute `old` with `new` **g**lobally in the file. |
 | `:%s/old/new/gc` | Substitute with **c**onfirmation for each match.          |
 
+^1d142e
+
 ### Working with Multiple Files (Command-Line Mode)
 | Command           | Description                                    |
 | :---------------- | :--------------------------------------------- |

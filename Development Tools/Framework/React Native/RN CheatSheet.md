@@ -1,6 +1,7 @@
 ---
 tags:
   - ReactNative
+  - Framework
 ---
 
 # React Native Cheat Sheet

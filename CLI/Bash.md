@@ -23,10 +23,10 @@ tags:
 
 ## File Operations
 - `cp` - Copy files or directories
-- `mv` - Move/rename files or directories
-- `rm` - Remove files or directories
+- `mv` - Move/rename files or directories ^e12c17
+- `rm` - Remove files or directories ^a813d6
 - `touch` - Create an empty file or update the timestamp of a file
-- `mkdir` - Create a new directory
+- `mkdir` - Create a new directory ^6ffcab
 
 ## Text Processing
 - `cat` - Concatenate and display file content
