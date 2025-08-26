@@ -4,30 +4,33 @@ tags:
 ---
 
 # C Programming Language Cheat Sheet
+
 ## Table of Contents
+
 - [Basics](#basics)
-- [Data Types](#data-types)
-    -[Variable declaration](#variable-declaration)
-- [Control Structures](#control-structures)
-    - [If-Else](#if-else)
-    - [Switch](#switch)
-    - [Loops](#loops)
-        - [For Loop](#for-loop)
-        - [While Loop](#while-loop)
-        - [Do-While Loop](#do-while-loop)
+- [Data Types](#data%20types)
+    -[Variable declaration](#variable%20declaration)
+- [Control Structures](#control%20structures)
+  - [If-Else](#If-Else)
+  - [Switch](#switch)
+  - [Loops](#loops)
+    - [For Loop](#for%20loop)
+    - [While Loop](#while%20loop)
+    - [Do-While Loop](#Do-While%20Loop)
 - [Functions](#functions)
 - [Arrays](#arrays)
 - [Pointers](#pointers)
 - [Structures](#structures)
-- [File I/O](#file-io)
-    - [Reading a File](#reading-a-file)
-    - [Writing to a File](#writing-to-a-file)
-- [Common Functions](#common-functions)
-- [Preprocessor Directives](#preprocessor-directives)
-- [Memory Management](#memory-management)
+- [File I/O](#file%20i/o)
+  - [Reading a File](#reading%20a%20file)
+  - [Writing to a File](#writing%20to%20a%20file)
+- [Common Functions](#common%20functions)
+- [Preprocessor Directives](#preprocessor%20directives)
+- [Memory Management](#memory%20management)
 - [Comments](#comments)
 
 ## Basics
+
 ```c
 #include "stdio.h"
 
@@ -37,16 +40,13 @@ int main() {
 }
 ```
 
-
-
 ## Data Types
+
 - `int`: Integer
 - `float`: Floating point number
 - `double`: Double precision floating point number
 - `char`: Character
 - `void`: Empty
-
-
 
 ### Variable Declaration
 
@@ -78,7 +78,6 @@ float decimals[3] = {1.1, 2.2, 3.3};
 int moreNumbers[] = {6, 7, 8, 9, 10};
 char moreLetters[] = "Hello";
 ```
-```
 
 ## Control Structures
 ### If-Else
@@ -91,6 +90,7 @@ if (condition) {
 ```
 
 ### Switch
+
 ```c
 switch (variable) {
     case value1:
@@ -105,7 +105,9 @@ switch (variable) {
 ```
 
 ### Loops
+
 #### For Loop
+
 ```c
 for (initialization; condition; increment) {
     // code
@@ -113,6 +115,7 @@ for (initialization; condition; increment) {
 ```
 
 #### While Loop
+
 ```c
 while (condition) {
     // code
@@ -120,6 +123,7 @@ while (condition) {
 ```
 
 #### Do-While Loop
+
 ```c
 do {
     // code
@@ -127,6 +131,7 @@ do {
 ```
 
 ## Functions
+
 ```c
 returnType functionName(parameters) {
     // code
@@ -135,17 +140,20 @@ returnType functionName(parameters) {
 ```
 
 ## Arrays
+
 ```c
 dataType arrayName[arraySize];
 ```
 
 ## Pointers
+
 ```c
 dataType *pointerName;
 pointerName = &variable;
 ```
 
 ## Structures
+
 ```c
 struct StructName {
     dataType member1;
@@ -155,7 +163,9 @@ struct StructName {
 ```
 
 ## File I/O
+
 ### Reading a File
+
 ```c
 FILE *filePointer;
 filePointer = fopen("filename", "r");
@@ -164,6 +174,7 @@ fclose(filePointer);
 ```
 
 ### Writing to a File
+
 ```c
 FILE *filePointer;
 filePointer = fopen("filename", "w");
@@ -172,6 +183,7 @@ fclose(filePointer);
 ```
 
 ## Common Functions
+
 - `printf()`: Print formatted output
 - `scanf()`: Read formatted input
 - `strlen()`: Get string length
@@ -180,6 +192,7 @@ fclose(filePointer);
 - `strcmp()`: Compare strings
 
 ## Preprocessor Directives
+
 - `#define`: Define a macro
 - `#include`: Include a header file
 - `#ifdef`: Conditional compilation
@@ -194,6 +207,7 @@ fclose(filePointer);
 ```
 
 ## Memory Management
+
 - `malloc()`: Allocate memory
 - `calloc()`: Allocate and zero-initialize memory
 - `free()`: Deallocate memory
@@ -204,5 +218,6 @@ free(ptr);
 ```
 
 ## Comments
+
 - Single line: `// comment`
 - Multi-line: `/* comment */`

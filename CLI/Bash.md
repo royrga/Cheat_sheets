@@ -6,10 +6,11 @@ tags:
 # Bash Cheat Sheet
 
 ## Table of Contents
-1. [Basic Commands](#basic-commands)
-2. [File Operations](#file-operations)
-3. [Text Processing](#text-processing)
-4. [Process Management](#process-management)
+[Basic Commands](#Basic%20Commands)
+1. [Basic Commands](#Basic%20Commands)
+2. [File Operations](#File%20Operations)
+3. [Text Processing](#Text%20Processing)
+4. [Process Management](#Process%20Management)
 5. [Networking](#networking)
 6. [Scripting](#scripting)
 

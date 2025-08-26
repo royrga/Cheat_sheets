@@ -5,16 +5,16 @@ tags:
 
 # TypeScript Cheat Sheet
 ## Table of Contents
-- [Basic Types](#basic-types)
+- [Basic Types](#basic%20types)
 - [Operators](#operators)
 - [Interfaces](#interfaces)
 - [Classes](#classes)
 - [Functions](#functions)
 - [Generics](#generics)
 - [Enums](#enums)
-- [Type Assertions](#type-assertions)
+- [Type Assertions](#type%20assertions)
 - [Modules](#modules)
-- [Utility Types](#utility-types)
+- [Utility Types](#utility%20types)
 
 ## Basic Types
 ```typescript

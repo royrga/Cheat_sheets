@@ -1,16 +1,16 @@
 # React Native Styles
 
 ## Table of Contents
-- [Basic Syntax](#basic-syntax)
-- [Common Properties](#common-properties)
+- [Basic Syntax](#basic%20syntax)
+- [Common Properties](#common%20properties)
     - [Layout](#layout)
     - [Dimensions](#dimensions)
     - [Spacing](#spacing)
     - [Positioning](#positioning)
-- [Text Styling](#text-styling)
-- [Background and Borders](#background-and-borders)
-- [Shadows (iOS/Android)](#shadows-iosandroid)
-- [Example Usage](#example-usage)
+- [Text Styling](#text%20styling)
+- [Background and Borders](#background%20and%20borders)
+-[Shadows (iOS/Android)](#Shadows%20(iOS/Android)) 
+- [Example Usage](#example%20usage)
 - [Tips](#tips)
 
 Further Details:  

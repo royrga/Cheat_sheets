@@ -5,24 +5,24 @@ tags:
 
 # Git Cheat Sheet
 ## Table of Contents
-- [Recommended workflow](#recommended-workflow)
-- [Getting Started](#getting-started)
-- [Basic Commands](#basic-commands)
+- [Recommended workflow](#recommended%20workflow)
+- [Getting Started](#getting%20started)
+- [Basic Commands](#basic%20commands)
 - [Branching](#branching)
 - [Merging](#merging)
-- [Remote Repositories](#remote-repositories)
+- [Remote Repositories](#remote%20repositories)
 - [Stashing](#stashing)
-- [Undoing Changes](#undoing-changes)
+- [Undoing Changes](#undoing%20changes)
 
 ## Recommended Workflow
 
-1. If you don't want to lose changes ensure that your [working directory](#working-directory) is clean before start this steps.
+1. If you don't want to lose changes ensure that your [working directory](#^working-directory)  is clean before start this steps.
 
-2. **[Option 1]** Run *fetch* command to get last changes from [remote](#remote-repository) in your [local repository](#local-repository). This command keep your changes on working directory:  
+
+2. **Option 1** Run *fetch* command to get last changes from [remote](#^remote-repository) in your [local repository](#^local-repository). This command keep your changes on working directory:  
 `git fetch`  
-
-    **[Option 2]** Run *pull* command to get last changes from remote in your local repository and your working directory. Note that any change in working directory could be deleted.
-    `git pull`
+or **Option 2** Run *pull* command to get last changes from remote in your local repository and your working directory. Note that any change in working directory could be deleted.
+	`git pull`
 
 3. Create and checkout a new branch (do this before start working on code changes):  
 ` git checkout -b new_branch_name `
@@ -91,11 +91,13 @@ tags:
 
 ## Glossary
 
->#### Working directory: 
->Place where developer actively edits and updates files
+>Working directory  
+>Place where developer actively edits and updates files ^working-directory
 
->#### Local repository:
->Contain history of all commits across all branches
+>Local repository:
+>Contain history of all commits across all branches ^local-repository
 
->#### Remote repository:
->The remote version of the local repostiory
+>Remote repository:
+>The remote version of the local repostiory ^remote-repository
+
+

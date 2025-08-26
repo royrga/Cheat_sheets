@@ -15,31 +15,32 @@ Dart is an open-source, general-purpose programming language developed by Google
 - **Ahead-of-Time (AOT) Compilation**: Dart can be compiled to native code for high performance on mobile and desktop platforms.
 - **Just-in-Time (JIT) Compilation**: Dart also supports JIT compilation, which allows for a faster development cycle with hot reload during development.
 
-
 ## Table of Contents
+
 - [Basics](#basics)
-    - [Variables](#variables)
-    - [Constants](#constants)
-    - [Functions](#functions)
-- [Control Flow](#control-flow)
-    - [If-Else](#if-else)
-    - [Switch](#switch)
-    - [Loops](#loops)
+  - [Variables](#variables)
+  - [Constants](#constants)
+  - [Functions](#functions)
+- [Control Flow](#control%20flow)
+  - [If-Else](#if-else)
+  - [Switch](#switch)
+  - [Loops](#loops)
 - [Collections](#collections)
-    - [Lists](#lists)
-    - [Sets](#sets)
-    - [Maps](#maps)
+  - [Lists](#lists)
+  - [Sets](#sets)
+  - [Maps](#maps)
 - [Classes](#classes)
-    - [Basic Class](#basic-class)
-    - [Inheritance](#inheritance)
-- [Asynchronous Programming](#asynchronous-programming)
-    - [Future](#future)
-    - [Stream](#stream)
-- [Exception Handling](#exception-handling)
+  - [Basic Class](#basic%20class)
+  - [Inheritance](#inheritance)
+- [Asynchronous Programming](#asynchronous%20programming)
+  - [Future](#future)
+  - [Stream](#stream)
+- [Exception Handling](#exception%20handling)
 
 ## Basics
 
 ### Variables
+
 ```dart
 var name = 'John';
 int age = 30;
@@ -49,12 +50,14 @@ String city = 'New York';
 ```
 
 ### Constants
+
 ```dart
 const pi = 3.14;
 final currentTime = DateTime.now();
 ```
 
 ### Functions
+
 ```dart
 void main() {
         print(greet('Alice'));
@@ -68,6 +71,7 @@ String greet(String name) {
 ## Control Flow
 
 ### If-Else
+
 ```dart
 if (age > 18) {
         print('Adult');
@@ -77,6 +81,7 @@ if (age > 18) {
 ```
 
 ### Switch
+
 ```dart
 switch (day) {
         case 'Monday':
@@ -91,6 +96,7 @@ switch (day) {
 ```
 
 ### Loops
+
 ```dart
 for (var i = 0; i < 5; i++) {
         print(i);
@@ -105,6 +111,7 @@ while (isStudent) {
 ## Collections
 
 ### Lists
+
 ```dart
 var numbers = [1, 2, 3, 4, 5];
 numbers.add(6);
@@ -112,6 +119,7 @@ print(numbers[0]);
 ```
 
 ### Sets
+
 ```dart
 var uniqueNumbers = {1, 2, 3, 4, 5};
 uniqueNumbers.add(6);
@@ -119,6 +127,7 @@ print(uniqueNumbers.contains(1));
 ```
 
 ### Maps
+
 ```dart
 var person = {
         'name': 'John',
@@ -131,6 +140,7 @@ print(person['name']);
 ## Classes
 
 ### Basic Class
+
 ```dart
 class Person {
         String name;
@@ -150,6 +160,7 @@ void main() {
 ```
 
 ### Inheritance
+
 ```dart
 class Student extends Person {
         String school;
@@ -172,6 +183,7 @@ void main() {
 ## Asynchronous Programming
 
 ### Future
+
 ```dart
 Future<String> fetchData() async {
         return 'Data fetched';
@@ -184,6 +196,7 @@ void main() async {
 ```
 
 ### Stream
+
 ```dart
 Stream<int> countStream(int max) async* {
         for (int i = 1; i <= max; i++) {
@@ -199,6 +212,7 @@ void main() async {
 ```
 
 ## Exception Handling
+
 ```dart
 try {
         var result = 10 ~/ 0;

@@ -5,20 +5,20 @@ tags:
 
 # Python Cheat Sheet
 
-
 ## Table of Contents
-- [Variables and Data Types](#variables-and-data-types)
-    - [Data Types Description](#data-types-description)
-- [Control Flow](#control-flow)
+
+- [Variables and Data Types](#variables%20and%20data%20types)
+  - [Data Types Description](#data%20types%20description)
+- [Control Flow](#control%20flow)
 - [Functions](#functions)
-- [Modules and Packages](#modules-and-packages)
-- [File Handling](#file-handling)
-- [Error Handling](#error-handling)
-- [Classes and Objects](#classes-and-objects)
-- [Common Built-in Functions](#common-built-in-functions)
-- [Advanced tools](#advanced-tools)
-    - [List Slicing](#list-slicing)
-    - [List Comprehension](#list-comprehension)
+- [Modules and Packages](#modules%20and%20packages)
+- [File Handling](#file%20handling)
+- [Error Handling](#error%20handling)
+- [Classes and Objects](#classes%20and%20objects)
+- [Common Built-in Functions](#common%20built-in%20functions)
+- [Advanced tools](#advanced%20tools)
+  - [List Slicing](#list%20slicing)
+	  - [List Comprehension](#list%20comprehension)
 
 ## Variables and Data Types
 
@@ -37,7 +37,9 @@ tags:
 - **bool**: Boolean values, `True` or `False`
 
 ## Control Flow
+
 - **If Statement**:
+
     ```python
     if condition:
             # code
@@ -46,19 +48,25 @@ tags:
     else:
             # code
     ```
+
 - **For Loop**:
+
     ```python
     for item in iterable:
             # code
     ```
+
 - **While Loop**:
+
     ```python
     while condition:
             # code
     ```
 
 ## Functions
+
 - **Defining a Function**:
+
     ```python
     def function_name(parameters):
             # code
@@ -66,24 +74,32 @@ tags:
     ```
 
 ## Modules and Packages
+
 - **Importing a Module**:
+
     ```python
     import module_name
     ```
+
 - **Importing Specific Functions**:
+
     ```python
     from module_name import function_name
     ```
 
 ## File Handling
+
 - **Opening a File**:
+
     ```python
     with open('filename', 'mode') as file:
             # code
     ```
 
 ## Error Handling
+
 - **Try-Except Block**:
+
     ```python
     try:
             # code
@@ -92,7 +108,9 @@ tags:
     ```
 
 ## Classes and Objects
+
 - **Defining a Class**:
+
     ```python
     class ClassName:
             def __init__(self, parameters):
@@ -101,10 +119,11 @@ tags:
                     # code
     ```
 
-    ### More on Classes
+  ### More on Classes
 
-    - **`__init__` Method**:
+  - **`__init__` Method**:
         The `__init__` method is the constructor method in Python. It is called when an instance (object) of the class is created. The `self` parameter refers to the instance being created.
+
         ```python
         class Person:
             def __init__(self, name, age):
@@ -116,10 +135,11 @@ tags:
         print(person1.age)   # Output: 30
         ```
 
-    - **Basic Magic Methods**:
+  - **Basic Magic Methods**:
         Magic methods (also known as dunder methods) are special methods that start and end with double underscores. They allow you to define the behavior of your objects for built-in operations.
 
-        - **`__str__` and `__repr__`**:
+    - **`__str__` and `__repr__`**:
+
             ```python
             class Person:
                 def __init__(self, name, age):
@@ -136,7 +156,8 @@ tags:
             print(person1)  # Output: Person(name=Alice, age=30)
             ```
 
-        - **`__eq__` and `__lt__`**:
+    - **`__eq__` and `__lt__`**:
+
             ```python
             class Person:
                 def __init__(self, name, age):
@@ -155,7 +176,8 @@ tags:
             print(person1 < person2)   # Output: False
             ```
 
-        - **`__len__` and `__getitem__`**:
+    - **`__len__` and `__getitem__`**:
+
             ```python
             class MyList:
                 def __init__(self, items):
@@ -173,6 +195,7 @@ tags:
             ```
 
 ## Common Built-in Functions
+
 - `print()`
 - `len()`
 - `range()`
@@ -185,10 +208,9 @@ tags:
 - `set()`
 - `bool()`
 
-
 ## Advanced tools
 
-### List tricks
+### List Slicing
 
 ```python
 # List traversal
@@ -234,46 +256,59 @@ arr[-1] # stack.peek()
 ### List Comprehension
 
 - **Basic Syntax**:
+
     ```python
     [expression for item in iterable]
     ```
+
 - **With Condition**:
+
     ```python
     [expression for item in iterable if condition]
     ```
+
 - **Nested List Comprehension**:
+
     ```python
     [[expression for item in iterable] for iterable in outer_iterable]
     ```
 
 **Examples**:
+
 - **Square Numbers**:
+
     ```python
     squares = [x**2 for x in range(10)]
     ```
+
 - **Filter Even Numbers**:
+
     ```python
     evens = [x for x in range(10) if x % 2 == 0]
     ```
+
 - **Flatten a List of Lists**:
+
     ```python
     nested_list = [[1, 2, 3], [4, 5, 6]]
     flat_list = [item for sublist in nested_list for item in sublist]
     ```
 
-    ## Unpacking Operator
+  ## Unpacking Operator
 
     The unpacking operator (`*` and `**`) in Python allows you to unpack iterables and dictionaries.
 
-    ### Unpacking Iterables
+  ### Unpacking Iterables
 
-    - **Using `*` to unpack a list or tuple**:
+  - **Using `*` to unpack a list or tuple**:
+
         ```python
         numbers = [1, 2, 3]
         print(*numbers)  # Output: 1 2 3
         ```
 
-    - **Using `*` in function arguments**:
+  - **Using `*` in function arguments**:
+
         ```python
         def add(a, b, c):
             return a + b + c
@@ -282,7 +317,8 @@ arr[-1] # stack.peek()
         print(add(*numbers))  # Output: 6
         ```
 
-    - **Unpacking with multiple variables**:
+  - **Unpacking with multiple variables**:
+
         ```python
         a, *b, c = [1, 2, 3, 4, 5]
         print(a)  # Output: 1
@@ -290,9 +326,10 @@ arr[-1] # stack.peek()
         print(c)  # Output: 5
         ```
 
-    ### Unpacking Dictionaries
+  ### Unpacking Dictionaries
 
-    - **Using `**` to unpack a dictionary**:
+  - **Using `**` to unpack a dictionary**:
+
         ```python
         def print_info(name, age):
             print(f"Name: {name}, Age: {age}")
@@ -301,7 +338,8 @@ arr[-1] # stack.peek()
         print_info(**info)  # Output: Name: Alice, Age: 30
         ```
 
-    - **Merging dictionaries**:
+  - **Merging dictionaries**:
+
         ```python
         dict1 = {'a': 1, 'b': 2}
         dict2 = {'c': 3, 'd': 4}
@@ -309,9 +347,10 @@ arr[-1] # stack.peek()
         print(merged_dict)  # Output: {'a': 1, 'b': 2, 'c': 3, 'd': 4}
         ```
 
-    ### Using Unpacking in Function Calls
+  ### Using Unpacking in Function Calls
 
-    - **Combining positional and keyword arguments**:
+  - **Combining positional and keyword arguments**:
+
         ```python
         def func(a, b, c, d):
             print(a, b, c, d)
@@ -320,3 +359,4 @@ arr[-1] # stack.peek()
         kwargs = {'c': 3, 'd': 4}
         func(*args, **kwargs)  # Output: 1 2 3 4
         ```
+

@@ -5,6 +5,6 @@ tags:
 
 List of useful tools
 
-* [[Markdown]] Plain text to add formatting elements.
-* [[Vim]]  Efficient text editor
+* [Markdown](Markdown.md) Plain text to add formatting elements.
+* [Vim](Vim.md)  Efficient text editor
 

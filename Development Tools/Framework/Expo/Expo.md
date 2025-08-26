@@ -16,12 +16,11 @@ Expo is an open-source framework and platform for building React Native applicat
 Expo is ideal for developers seeking a fast and efficient way to build and deploy React Native apps.
 ## Table of Contents
 
-- [Expo Router](#expo-router)
-    - [Key Concepts](#key-concepts)
-    - [Stack Navigation with Expo Router](#stack-navigation-with-expo-router)
-    - [Setting Up Stack Navigation](#setting-up-stack-navigation)
-    - [Key Features of Stack Navigation](#key-features-of-stack-navigation)
-
+-[Expo Router](#Expo%20Router)
+    -[Key Concepts](#Key%20Concepts)
+    -[Stack Navigation with Expo Router](#Stack%20Navigation%20with%20Expo%20Router) 
+    -[Setting Up Stack Navigation](#Setting%20Up%20Stack%20Navigation)
+    -[Key Features of Stack Navigation](#Key%20Features%20of%20Stack%20Navigation)
 
 ## Expo Router
 

@@ -8,7 +8,7 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:\"Programing Languages\"  ",
+      "query": "tag:#ProgrammingLanguage  ",
       "color": {
         "a": 1,
         "rgb": 14701138
@@ -43,16 +43,16 @@
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
-  "collapse-forces": false,
-  "centerStrength": 0.875,
-  "repelStrength": 14.4742838541667,
-  "linkStrength": 0.834065755208333,
-  "linkDistance": 155,
-  "scale": 0.7331155505942258,
-  "close": false
+  "textFadeMultiplier": -0.3,
+  "nodeSizeMultiplier": 0.8177734375,
+  "lineSizeMultiplier": 2.14405924479167,
+  "collapse-forces": true,
+  "centerStrength": 0.553873697916667,
+  "repelStrength": 13.408203125,
+  "linkStrength": 1,
+  "linkDistance": 30,
+  "scale": 0.5519612002662355,
+  "close": true
 }
